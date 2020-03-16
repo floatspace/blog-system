@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\nt\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add koa-redis
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\nt\bin;C:\Program Files (x86)\NetSarang\Xshell 6;C:\Program Files (x86)\NetSarang\Xftp 6;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Git\cmd;C:\Users\nt\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\TortoiseGit\bin;D:\Program Files\Redis;D:\Program Files (x86)\Graphviz 2.28\bin;C:\Users\nt\AppData\Local\Microsoft\WindowsApps;C:\Users\nt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nt\AppData\Roaming\npm;C:\Users\nt\AppData\Roaming\nvm;C:\Users\nt\AppData\Local\Programs\Fiddler;C:\Users\nt\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  12.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://r.cnpmjs.org/co-wrap-all/download/co-wrap-all-1.0.0.tgz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (C:\Users\nt\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\nt\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\nt\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66997:16)
+      at Request.emit (events.js:200:13)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\nt\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141463:10)
+      at ClientRequest.emit (events.js:205:15)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:573:23)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+      at TLSSocket.socketOnData (_http_client.js:460:22)
+      at TLSSocket.emit (events.js:200:13)
+
+npm manifest: 
+  {
+    "name": "blog-koa2",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "node app.js",
+      "dev": "cross-env NODE_ENV=dev nodemon node app.js"
+    },
+    "dependencies": {
+      "cross-env": "^7.0.2",
+      "debug": "~2.6.8",
+      "koa": "^2.3.0",
+      "koa-bodyparser": "^4.2.0",
+      "koa-convert": "^1.2.0",
+      "koa-generic-session": "^2.0.4",
+      "koa-json": "^2.0.2",
+      "koa-logger": "^3.0.0",
+      "koa-onerror": "^3.1.0",
+      "koa-router": "^7.2.1",
+      "koa-static": "^3.0.0",
+      "koa-views": "^6.0.2",
+      "mysql": "^2.18.1",
+      "nodemon": "^2.0.2",
+      "nunjucks": "~3.0.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "7.1.1",
+      "eslint": "3.18.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

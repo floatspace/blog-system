@@ -1,0 +1,42 @@
+2020-03-16 17:51:32: Listening on http://localhost:3000
+2020-03-16 17:51:37:   <-- GET /api/user/loginTest
+2020-03-16 17:51:37:   <-- GET /api/blog/list?author=admin
+2020-03-16 17:51:37:   --> GET /api/user/loginTest 200 10ms 35b
+2020-03-16 17:51:37:   --> GET /api/blog/list?author=admin 200 9ms 2.53kb
+2020-03-16 17:51:39:   <-- GET /api/user/loginTest
+2020-03-16 17:51:39:   --> GET /api/user/loginTest 200 1ms 35b
+2020-03-16 17:51:39:   <-- GET /api/blog/list?author=admin
+2020-03-16 17:51:39:   --> GET /api/blog/list?author=admin 200 2ms 2.53kb
+2020-03-16 17:51:41:   <-- GET /api/blog/detail?id=18
+2020-03-16 17:51:41:   --> GET /api/blog/detail?id=18 200 1ms 2.05kb
+2020-03-16 17:52:13: Listening on http://localhost:3000
+2020-03-16 17:52:16: Listening on http://localhost:3000
+2020-03-16 17:52:20: Listening on http://localhost:3000
+2020-03-16 17:52:23: Listening on http://localhost:3000
+2020-03-16 17:52:27: Listening on http://localhost:3000
+2020-03-16 17:52:34: Listening on http://localhost:3000
+2020-03-16 17:52:44: Listening on http://localhost:3000
+2020-03-16 17:53:11: Listening on http://localhost:3000
+2020-03-16 17:53:21: Listening on http://localhost:3000
+2020-03-16 17:53:39: Listening on http://localhost:3000
+2020-03-16 17:53:46:   <-- GET /api/user/loginTest
+2020-03-16 17:53:46:   <-- GET /api/blog/detail?id=18
+2020-03-16 17:53:46:   --> GET /api/user/loginTest 200 12ms 35b
+2020-03-16 17:53:46:   --> GET /api/blog/detail?id=18 200 11ms 2.05kb
+2020-03-16 17:53:49:   <-- POST /api/user/loginout
+2020-03-16 17:53:49:   --> POST /api/user/loginout 200 1ms 38b
+2020-03-16 17:53:50:   <-- GET /api/blog/list
+2020-03-16 17:53:50:   --> GET /api/blog/list 200 6ms 3kb
+2020-03-16 17:53:58:   <-- GET /api/blog/list
+2020-03-16 17:53:58:   <-- GET /api/user/loginTest
+2020-03-16 17:53:58:   --> GET /api/user/loginTest 200 3ms 36b
+2020-03-16 17:53:58:   --> GET /api/blog/list 200 9ms 3kb
+2020-03-16 17:54:04:   <-- POST /api/user/login
+2020-03-16 17:54:04:   --> POST /api/user/login 200 5ms 61b
+2020-03-16 17:54:05:   <-- GET /api/user/loginTest
+2020-03-16 17:54:05:   <-- GET /api/blog/list?author=admin
+2020-03-16 17:54:05:   --> GET /api/user/loginTest 200 1ms 35b
+2020-03-16 17:54:05:   --> GET /api/blog/list?author=admin 200 4ms 2.53kb
+2020-03-16 17:55:13: Listening on http://localhost:3000
+2020-03-16 17:55:17: Listening on http://localhost:3000
+2020-03-16 17:55:27: Listening on http://localhost:3000
