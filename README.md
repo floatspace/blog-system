@@ -1,5 +1,5 @@
 # blog-system
-blog-nodejs | blog-express | blog.koa2 | web
+blog-nodejs | blog-express | blog.koa2 | blog-web
 
 # usage
 ## server端
@@ -10,7 +10,7 @@ npm install
 npm run dev  
 
 ### web端
-cd web  
+cd blog-web  
 
 npm install  
 
